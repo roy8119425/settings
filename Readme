@@ -1,0 +1,3 @@
+1. vimrc => /etc/vim/vimrc
+2. bashrc => /root/.bashrc
+3. stock => /usr/local/bin/stock
