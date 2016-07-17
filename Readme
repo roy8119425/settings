@@ -1,3 +1,7 @@
 1. vimrc => /etc/vim/vimrc
 2. bashrc => /root/.bashrc
 3. stock => /usr/local/bin/stock
+
+4. vundle install:
+	1. git clone https://github.com/gmarik/vundle.git /etc/vim/bundle/vundle
+	2. vim +PluginInstall +qall
