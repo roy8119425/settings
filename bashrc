@@ -100,6 +100,10 @@ fi
 
 # Roy
 alias vim='vim -p'
+alias b='cd ..'
+alias bb='cd ../..'
+alias bbb='cd ../../..'
+alias bbbb='cd ../../../..'
 
 STOCK_INFO_FILE=/tmp/stock.info
 STOCK_PID_FILE=/tmp/stock.pid
