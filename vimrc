@@ -26,6 +26,7 @@ Plugin 'gmarik/vundle'
 " scripts on GitHub repos
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'taglist.vim'
 
 filetype plugin indent on     " required
 " End of vundle
