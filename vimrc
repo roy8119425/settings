@@ -27,6 +27,7 @@ Plugin 'gmarik/vundle'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'taglist.vim'
+Plugin 'pangloss/vim-javascript'
 
 filetype plugin indent on     " required
 " End of vundle
@@ -84,6 +85,7 @@ map <F3> <C-w><C-w>
 map <F4> :set nonu <CR> :set nolist <CR>
 map <F5> :set nu <CR> :set list <CR>
 set hlsearch
+hi search cterm=bold ctermfg=black ctermbg=yellow
 set ignorecase
 set incsearch
 set listchars=tab:>-,trail:~
