@@ -28,6 +28,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'taglist.vim'
 Plugin 'pangloss/vim-javascript'
+Plugin 'lygaret/autohighlight.vim'
 
 filetype plugin indent on     " required
 " End of vundle
@@ -96,6 +97,10 @@ set smartcase
 set tabstop=4
 set wildmenu
 set bg=light
+
+" auto highlight
+set updatetime=100
+hi CursorAutoHighlight cterm=bold ctermfg=black ctermbg=darkgreen
 
 " foldmethod
 set foldenable
