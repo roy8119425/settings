@@ -29,6 +29,7 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'taglist.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'lygaret/autohighlight.vim'
+Plugin 'scrooloose/nerdtree'
 
 filetype plugin indent on     " required
 " End of vundle
@@ -101,6 +102,9 @@ set bg=light
 " auto highlight
 set updatetime=100
 hi CursorAutoHighlight cterm=bold ctermfg=black ctermbg=darkgreen
+
+" NERDTree
+map <leader><leader>t :NERDTree <CR>
 
 " foldmethod
 set foldenable
