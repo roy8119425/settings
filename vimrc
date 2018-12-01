@@ -28,8 +28,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'taglist.vim'
 Plugin 'pangloss/vim-javascript'
-Plugin 'lygaret/autohighlight.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 filetype plugin indent on     " required
 " End of vundle
@@ -100,8 +100,7 @@ set wildmenu
 set bg=light
 
 " auto highlight
-set updatetime=100
-hi CursorAutoHighlight cterm=bold ctermfg=black ctermbg=darkgreen
+autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
 
 " NERDTree
 map <leader><leader>t :NERDTree <CR>
