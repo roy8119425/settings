@@ -121,5 +121,5 @@ function fetch_stock_info {
 	fi
 }
 
-export PS1="\[\e[1;31m\]\T\[\e[m\] \[\e[38;5;111m\][\w]\[\e[38;5;172m\]\$(parse_git_branch)\[\e[m\] \$(fetch_stock_info)\n\[\e[1;38;5;82m\]\h\[\e[m\]~\$ "
+export PS1="\[\e[1;31m\]\T\[\e[m\] \[\e[38;5;111m\][\w]\[\e[38;5;172m\]\$(parse_git_branch)\[\e[m\] \$(fetch_stock_info)\n\[\e[1;38;5;82m\]\u@\h\[\e[m\]~\$ "
 # End of Roy
