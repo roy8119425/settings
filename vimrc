@@ -30,6 +30,7 @@ Plugin 'taglist.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
+" Plugin 'fatih/vim-go'       " Need to upgrade vim version
 
 filetype plugin indent on     " required
 " End of vundle
