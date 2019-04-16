@@ -93,7 +93,9 @@ set hlsearch
 hi search cterm=bold ctermfg=black ctermbg=yellow
 set ignorecase
 set incsearch
-set listchars=tab:\|\ ,trail:~
+set nu
+set list
+set listchars=tab:\|\ ,trail:.
 set mouse=a
 set scrolloff=7
 set shiftwidth=4
