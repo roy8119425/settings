@@ -32,6 +32,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mxw/vim-jsx'
 Plugin 'styled-components/vim-styled-components'
+Plugin 'leafgarland/typescript-vim'
 " Plugin 'fatih/vim-go'       " Need to upgrade vim version
 
 filetype plugin indent on     " required
