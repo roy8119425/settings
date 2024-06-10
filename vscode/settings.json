@@ -1,0 +1,43 @@
+{
+	"search.useIgnoreFiles": false,
+	"files.associations": {
+		"*.json": "jsonc",
+		"*.tsx": "typescriptreact"
+	},
+	"editor.renderWhitespace": "boundary",
+	"window.zoomLevel": 0,
+	"workbench.colorCustomizations": {
+		"terminal.background":"#000000",
+		"terminal.foreground":"#E0E0E0",
+		"terminalCursor.background":"#E0E0E0",
+		"terminalCursor.foreground":"#E0E0E0",
+		"terminal.ansiBlack":"#000000",
+		"terminal.ansiBlue":"#6FB3D2",
+		"terminal.ansiBrightBlack":"#B0B0B0",
+		"terminal.ansiBrightBlue":"#6FB3D2",
+		"terminal.ansiBrightCyan":"#76C7B7",
+		"terminal.ansiBrightGreen":"#A1C659",
+		"terminal.ansiBrightMagenta":"#D381C3",
+		"terminal.ansiBrightRed":"#FB0120",
+		"terminal.ansiBrightWhite":"#FFFFFF",
+		"terminal.ansiBrightYellow":"#FDA331",
+		"terminal.ansiCyan":"#76C7B7",
+		"terminal.ansiGreen":"#A1C659",
+		"terminal.ansiMagenta":"#D381C3",
+		"terminal.ansiRed":"#FB0120",
+		"terminal.ansiWhite":"#E0E0E0",
+		"terminal.ansiYellow":"#FDA331"
+	},
+	"workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.minimap.enabled": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"editor.stickyScroll.enabled": false,
+	"git.openRepositoryInParentFolders": "never"
+}
