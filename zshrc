@@ -11,8 +11,8 @@ alias bb='cd ../..'
 alias bbb='cd ../../..'
 alias bbbb='cd ../../../..'
 
-bindkey '^[[A' history-search-backward
-bindkey '^[[B' history-search-forward
+bindkey '^[[A' history-beginning-search-backward
+bindkey '^[[B' history-beginning-search-forward
 
 function parse_git_branch {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
